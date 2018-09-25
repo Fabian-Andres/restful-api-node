@@ -162,8 +162,6 @@ http://localhost:3001/api/products/:productId
  
 And send
 
-line
-------------------------------------------------
 - Orders
 
 To make these requests we must have our **Token** that is generated in the login, and send it through our **Headers**.
