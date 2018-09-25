@@ -1,13 +1,13 @@
 'use strict';
 
-const jwt = require('jsonwebtoken');
+const jwt = require('jwt-simple');
 const moment = require('moment');
 const config = require('../config');
 
 // Create token
 function createToken (user) {
   const payload = {
-    sub: user._id,
+    sub: user,
     iat: moment().unix(),
     exp: moment().add(7, 'days').unix()
   };
