@@ -1,4 +1,5 @@
-# Login-nodejs
+# RESTful-API-node
+Simple RESTful API to register, login and CRUD of products and orders written with node js and using mongoDB as database.
 
 ## System requirements
 
@@ -14,14 +15,14 @@ To carry out the installation of the project, the following steps must be carrie
 
 To clone the application, run this command on your terminal:
 
-    git clone https://github.com/Fabian-Andres/oiga-node.git
+    git clone https://github.com/Fabian-Andres/restful-api-node.git
 
 
 ### Configure and download dependencies
 With the following command the libraries of the package.json will be installed, for the project:
 
 
-Being in  `cd /oiga-node`
+Being in  `cd /restful-api-node`
 
 - Install the dependencies with
 
@@ -74,8 +75,8 @@ We insert our JSON and send
 
 ```
 {
-   "email": "admin@acunetiz.com",
-   "displayName": "Acunetiz",
+   "email": "admin@demo.com",
+   "displayName": "Anonymous",
    "password": "pass",
    "type": "ADMIN_ROLE"
 }
@@ -92,7 +93,7 @@ We insert our JSON and send
 
 ```
 {
-   "email": "admin@acunetiz.com",
+   "email": "admin@demo.com",
    "password": "pass"
 }
 ```
